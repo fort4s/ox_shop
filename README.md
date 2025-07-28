@@ -1,28 +1,40 @@
-## Simple Multi-Shop System for ESX (using ox_lib + ox_target)
+# Multi-Shop System for ESX with ox_target and ox_lib
 
-A lightweight and flexible shop system for **ESX-based FiveM servers**, built with **ox_lib** and **ox_target**.  
-Supports multiple shop types with custom items, NPCs, and blips.
-
----
-
-## ✨ Features
-
-- 🛒 Multiple shop types (e.g., general store, Ammu-Nation)
-- 📍 Add unlimited locations per shop
-- 🧍 NPC spawning with emotes and invincibility
-- 🗺️ Custom blips (sprite, color, name, scale)
-- 🧭 Interactions via `ox_target` zones
-- 🛑 Optional job restrictions on specific items
-- 📦 Simple, clean configuration in `config.lua`
-- 🧠 Uses `ox_lib` dialogs and notifications
-- 🌐 Locale support (`locales/en.lua`)
+A simple and flexible shop system for FiveM using ESX, with multiple shops and locations.  
+Designed to work with **ox_target** for interactions and **ox_lib** for menus and notifications.  
 
 ---
 
-## 🧰 Dependencies
+## ⚙️ Configuration
 
-Make sure these are installed and started **before** this resource:
+All shop logic is managed in `config.lua`. You can customize:
 
-- [ox_lib](https://github.com/overextended/ox_lib)
-- [ox_target](https://github.com/overextended/ox_target)
+- 🛠 **Items:** Define item name, label, price, and optional job restrictions
+- 🧍 **NPCs:** Set NPC model, coordinates, heading, and emote
+- 🗺️ **Blips:** Configure icon, name, color, scale, visibility, and short-range display
+- 🎯 **Interaction:** Customize `ox_target` interaction label and radius
+
+---
+
+## 🌍 Localization
+
+Translate or customize messages by editing or duplicating `locales/en.lua`.
+
+---
+
+## 🧪 Example Shops
+
+- 🥖 **Convenience Store:** bread, water, cola (paid with money)  
+- 🔫 **Ammu-Nation:** pistol, ammo (paid with bank)  
+- 🚓 **Job-locked Shops:** restrict certain items to police, gangs, etc.
+
+---
+
+## 🙏 Credits
+
+Created by **fort4s**
+
+Built using:  
+- [ox_lib](https://github.com/overextended/ox_lib)  
+- [ox_target](https://github.com/overextended/ox_target)  
 - [es_extended](https://github.com/esx-framework/es_extended)
