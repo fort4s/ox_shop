@@ -1,4 +1,4 @@
-#Simple Multi-Shop System for ESX (using ox_lib + ox_target)
+###Simple Multi-Shop System for ESX (using ox_lib + ox_target)
 
 A lightweight and flexible shop system for **ESX-based FiveM servers**, built with **ox_lib** and **ox_target**.  
 Supports multiple shop types with custom items, NPCs, and blips.
